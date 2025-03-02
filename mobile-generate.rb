@@ -1,7 +1,7 @@
 class MobileGenerate < Formula
   desc "This is tool for generate mobile for Darwin"
   homepage ""
-  url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.1.tar.gz"
   # url "file:///Users/datpham/Desktop/test/dmg/mobile-generate/dmg.tar.gz"
   sha256 "6f61a460fca6ea082f3a4dec2fd0528b5333d503447bf25d5d991fa3e6edb69c"
   license ""
@@ -15,7 +15,7 @@ class MobileGenerate < Formula
   end
 
   def install
-    system ("git clone ssh://git@gitlab.com/DatUET/mobile_generate_script.git bin")
+    system ("git clone git@gitlab.com:DatUET/mobile_generate_script.git bin")
     bin.install Dir["bin/*"]
     system ("go version")
     system ("go mod init mobile_generate") if !File.exist?("go.mod")
