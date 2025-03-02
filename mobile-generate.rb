@@ -5,7 +5,7 @@ class MobileGenerate < Formula
   # url "file:///Users/datpham/Desktop/test/dmg/mobile-generate/dmg.tar.gz"
   sha256 "6f61a460fca6ea082f3a4dec2fd0528b5333d503447bf25d5d991fa3e6edb69c"
   license ""
-  version "0.1.0"
+  version "0.1.1"
   depends_on "go" => :build
   depends_on "git"
 
