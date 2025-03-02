@@ -1,11 +1,11 @@
 class MobileGenerate < Formula
   desc "This is tool for generate mobile for Darwin"
   homepage ""
-  url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.1.tar.gz"
+  url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.2.tar.gz"
   # url "file:///Users/datpham/Desktop/test/dmg/mobile-generate/dmg.tar.gz"
-  sha256 "06fb8f518b146e622d04bd57bcdf6c9d3648e2b92abf7d1dca005f1cd16a36d0"
+  sha256 "2e2acc3e91efdccde8bef12a13ab5115769e44766a44fe68eef8bce1c9dc53f7"
   license ""
-  version "0.1.1"
+  version "0.1.2"
   depends_on "go" => :build
   depends_on "git"
 
