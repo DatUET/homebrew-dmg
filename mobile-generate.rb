@@ -5,7 +5,7 @@ class MobileGenerate < Formula
 #   url "file:///Users/datpham/Desktop/test/dmg/mobile-generate/dmg.tar.gz"
   sha256 "782e7d9d40a5c05eb875ba7051caa805b7632cb5e0c52f56a8e671728ec0649c"
   license ""
-  version "0.1.4"
+  version "0.1.5"
   depends_on "go" => :build
   depends_on "git"
 
@@ -25,7 +25,7 @@ class MobileGenerate < Formula
   end
 
   test do
-    expected_version = "0.1.0"
+    expected_version = "0.1.5"
     actual_version = shell_output("#{bin}/dmg --version").strip
     assert_match expected_version, actual_version
   end
