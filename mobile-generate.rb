@@ -3,7 +3,7 @@ class MobileGenerate < Formula
   homepage ""
   url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.7.tar.gz"
   # url "file:///Users/datpham/Desktop/test/dmg/mobile-generate/dmg.tar.gz"
-  sha256 "20a7144143189e85e133f072fee2734c7c0a30332dc3dbb162d34614266abb12"
+  sha256 "6a745a0eccdce31b22a05bc177055e77fafeb25fabdcbcbb4a2072dfdf05fe26"
   license ""
   version "0.1.7"
   depends_on "go" => :build
