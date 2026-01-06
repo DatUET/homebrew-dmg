@@ -1,11 +1,11 @@
 class MobileGenerate < Formula
   desc "This is tool for generate mobile for Darwin"
   homepage ""
-  url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.6.tar.gz"
+  url "https://github.com/DatUET/mobile-generate/archive/refs/tags/v0.1.7.tar.gz"
   # url "file:///Users/datpham/Desktop/test/dmg/mobile-generate/dmg.tar.gz"
   sha256 "20a7144143189e85e133f072fee2734c7c0a30332dc3dbb162d34614266abb12"
   license ""
-  version "0.1.6"
+  version "0.1.7"
   depends_on "go" => :build
   depends_on "git"
 
@@ -25,7 +25,7 @@ class MobileGenerate < Formula
   end
 
   test do
-    expected_version = "0.1.6"
+    expected_version = "0.1.7"
     actual_version = shell_output("#{bin}/dmg --version").strip
     assert_match expected_version, actual_version
   end
